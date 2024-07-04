@@ -7,7 +7,7 @@ extension API.MostPopular {
     private static let categoryPath = "/mostpopular/v2/"
 
     struct Viewed: ModelTargetType {
-        typealias Response = DTO.MostPopularArticle
+        typealias Response = DTO.MostPopularArticleResponse
 
         let period: Int
         var path: String { categoryPath + "viewed/\(period).json" }

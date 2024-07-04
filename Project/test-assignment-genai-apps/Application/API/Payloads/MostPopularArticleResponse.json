@@ -4,66 +4,6 @@
   "num_results": 20,
   "results": [
     {
-      "uri": "nyt://article/8caf03f9-ad74-5bca-90a5-fa90bf38a1d0",
-      "url": "https://www.nytimes.com/2024/07/02/us/politics/biden-lapses.html",
-      "id": 100000009547547,
-      "asset_id": 100000009547547,
-      "source": "New York Times",
-      "published_date": "2024-07-02",
-      "updated": "2024-07-03 08:25:53",
-      "section": "U.S.",
-      "subsection": "Politics",
-      "nytdsection": "u.s.",
-      "adx_keywords": "United States Politics and Government;Presidential Election of 2024;Age, Chronological;Biden, Joseph R Jr;Democratic Party",
-      "column": null,
-      "byline": "By Peter Baker, David E. Sanger, Zolan Kanno-Youngs and Katie Rogers",
-      "type": "Article",
-      "title": "Biden’s Lapses Are Said to Be Increasingly Common and Worrisome",
-      "abstract": "People who have spent time with President Biden over the last few months or so said the lapses appear to have grown more frequent, more pronounced and, after Thursday’s debate, more worrisome.",
-      "des_facet": [
-        "United States Politics and Government",
-        "Presidential Election of 2024",
-        "Age, Chronological"
-      ],
-      "org_facet": [
-        "Democratic Party"
-      ],
-      "per_facet": [
-        "Biden, Joseph R Jr"
-      ],
-      "geo_facet": [],
-      "media": [
-        {
-          "type": "image",
-          "subtype": "photo",
-          "caption": "President Biden boarding Air Force One in early June. In the three weeks leading up to the debate against former President Donald J. Trump, he kept up a grueling travel schedule that exhausted even much younger aides.",
-          "copyright": "Al Drago for The New York Times",
-          "approved_for_syndication": 1,
-          "media-metadata": [
-            {
-              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/01dc-biden-debate-top-gptj/01dc-biden-debate-top-gptj-thumbStandard.jpg",
-              "format": "Standard Thumbnail",
-              "height": 75,
-              "width": 75
-            },
-            {
-              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/01dc-biden-debate-top-gptj/01dc-biden-debate-top-gptj-mediumThreeByTwo210.jpg",
-              "format": "mediumThreeByTwo210",
-              "height": 140,
-              "width": 210
-            },
-            {
-              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/01dc-biden-debate-top-gptj/01dc-biden-debate-top-gptj-mediumThreeByTwo440.jpg",
-              "format": "mediumThreeByTwo440",
-              "height": 293,
-              "width": 440
-            }
-          ]
-        }
-      ],
-      "eta_id": 0
-    },
-    {
       "uri": "nyt://article/7e5a7f0a-9082-5150-a48c-bca511bc083c",
       "url": "https://www.nytimes.com/2024/07/03/opinion/biden-harris-trump-democrats.html",
       "id": 100000009553254,

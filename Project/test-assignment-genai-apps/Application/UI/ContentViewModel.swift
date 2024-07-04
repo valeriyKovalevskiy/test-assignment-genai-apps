@@ -17,8 +17,13 @@ final class ContentViewModel: ObservableObject {
     @Published var isLoading: Set<LoadingContent> = .init()
     @Published var daysPeriod: MostPopularArticle.DaysPeriod = .one
     @Published var alertInfo: AlertInfo?
-
+    @Published var articles: [MostPopularArticle]?
+    
     func changeDaysPeriod(to period: MostPopularArticle.DaysPeriod) {
+        guard daysPeriod != period else {
+            return
+        }
+        
         daysPeriod = period
         fetchMostPopularArticles(period: period)
     }
@@ -31,8 +36,8 @@ final class ContentViewModel: ObservableObject {
             .handleLoading(in: self, keyPath: \.isLoading, event: .mostPopulars)
             .sinkResult { [weak self] result in
                 switch result {
-                case .success:
-                    self?.alertInfo = .message("success")
+                case .success(let articles):
+                    self?.articles = articles
 
                 case .failure(let error):
                     self?.alertInfo = .error(error.localizedDescription)

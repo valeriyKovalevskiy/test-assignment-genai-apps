@@ -40,19 +40,38 @@ struct ContentView: View {
     @ViewBuilder
     private var contentView: some View {
         if viewModel.isLoading.contains(.mostPopulars) {
-            ProgressView()
+            loadingStateView
         } else {
             articlesListView
         }
     }
     
-    private var articlesListView: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-            Text("Hello, world!")
+    private var loadingStateView: some View {
+        ProgressView()
+    }
+    
+    private var emptyStateView: some View {
+        Text("Empty")
+    }
+    
+    private func makeArticlesList(articles: [MostPopularArticle]) -> some View {
+        ScrollView {
+            VStack(alignment: .leading) {
+                ForEach(articles, id: \.id) {
+                    Text($0.title)
+                        .padding(.bottom)
+                }
+            }
         }
-        .padding()
+    }
+    
+    @ViewBuilder
+    private var articlesListView: some View {
+        if let articles = viewModel.articles, !articles.isEmpty {
+            makeArticlesList(articles: articles)
+        } else {
+            emptyStateView
+        }
     }
 }
 

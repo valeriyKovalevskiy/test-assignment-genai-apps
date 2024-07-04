@@ -36,6 +36,7 @@
 		04E332B92C36E4BC00B8309D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332B82C36E4BC00B8309D /* ContentViewModel.swift */; };
 		04E332BB2C36EC8900B8309D /* AlertInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332BA2C36EC8900B8309D /* AlertInfo.swift */; };
 		04E332BD2C36ECD700B8309D /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332BC2C36ECD700B8309D /* View+Extension.swift */; };
+		04E332BF2C36EEDE00B8309D /* DTO.MostPopularArticleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332BE2C36EEDE00B8309D /* DTO.MostPopularArticleResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		04E332B82C36E4BC00B8309D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		04E332BA2C36EC8900B8309D /* AlertInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertInfo.swift; sourceTree = "<group>"; };
 		04E332BC2C36ECD700B8309D /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		04E332BE2C36EEDE00B8309D /* DTO.MostPopularArticleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTO.MostPopularArticleResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				04E3329F2C36D5E400B8309D /* DTO.MostPopularArticle.swift */,
+				04E332BE2C36EEDE00B8309D /* DTO.MostPopularArticleResponse.swift */,
 				04E332A62C36D70D00B8309D /* DTO.swift */,
 			);
 			path = ResponseModels;
@@ -330,6 +333,7 @@
 				04E3329B2C36D24800B8309D /* ApplicationSecrets.swift in Sources */,
 				04E332BB2C36EC8900B8309D /* AlertInfo.swift in Sources */,
 				04E3328E2C36CB9300B8309D /* APIError.swift in Sources */,
+				04E332BF2C36EEDE00B8309D /* DTO.MostPopularArticleResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
