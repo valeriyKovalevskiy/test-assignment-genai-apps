@@ -10,11 +10,9 @@ enum API {
         [
             "X-DeviceType": "app",
             "X-OperatingSystem": "iOS",
-            "X-DeviceId": ApplicationSettings.shared.vendorIdentifier,
             "X-SystemVersion": ApplicationSettings.shared.systemVersion,
             "X-AppVersion": ApplicationSettings.shared.versionNumber,
             "X-Build": ApplicationSettings.shared.buildNumber,
-            "X-TimeZone": ApplicationSettings.shared.timeZone
         ]
             .compactMapValues { $0 }
     }

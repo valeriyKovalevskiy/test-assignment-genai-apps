@@ -9,24 +9,12 @@ struct ApplicationSettings {
         UIDevice.current.systemVersion
     }
     
-    var vendorIdentifier: String {
-        UIDevice.current.identifierForVendor?.uuidString ?? ""
-    }
-    
     var versionNumber: String {
         Bundle.main.versionNumber
     }
     
     var buildNumber: String {
         Bundle.main.buildNumber
-    }
-    
-    var readableVersionAndBuild: String {
-        Bundle.main.versionAndBuildNumber
-    }
-    
-    var timeZone: String {
-        TimeZone.current.identifier
     }
     
     var isInSwiftUIPreviewMode: Bool {
