@@ -1,10 +1,3 @@
-//
-//  DTO.MostPopularArticleResponse.swift
-//  test-assignment-genai-apps
-//
-//  Created by Valery Kavaleuski on 4.07.24.
-//
-
 import Foundation
 
 extension DTO {

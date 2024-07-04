@@ -4,11 +4,20 @@ struct MostPopularArticle: Identifiable, Equatable {
     let id: Int
     let url: URL?
     let author: String?
-    let publishedAt: Date?
-    let updatedAt: Date?
+    let publishedAt: String?
     let title: String
     let description: String?
     let type: String
+    let thumbnail: Image?
+}
+
+extension MostPopularArticle {
+    struct Image: Identifiable, Equatable {
+        let id: String = UUID().uuidString
+        let url: URL?
+        let width: CGFloat
+        let height: CGFloat
+    }
 }
 
 extension MostPopularArticle {

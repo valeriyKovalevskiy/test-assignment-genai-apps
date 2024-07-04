@@ -1,13 +1,13 @@
 import Foundation
 import Combine
 
-extension ContentViewModel {
+extension MostPopularArticlesViewModel {
     enum LoadingContent {
         case mostPopulars
     }
 }
 
-final class ContentViewModel: ObservableObject {
+final class MostPopularArticlesViewModel: ObservableObject {
 
     private var cancellables = Set<AnyCancellable>()
     
@@ -15,29 +15,27 @@ final class ContentViewModel: ObservableObject {
     @Injected(\.remoteConfigService) private var remoteConfig
     
     @Published var isLoading: Set<LoadingContent> = .init()
-    @Published var daysPeriod: MostPopularArticle.DaysPeriod = .one
+    @Published var daysPeriod: MostPopularArticle.DaysPeriod?
     @Published var alertInfo: AlertInfo?
     @Published var articles: [MostPopularArticle]?
     
     func changeDaysPeriod(to period: MostPopularArticle.DaysPeriod) {
-        guard daysPeriod != period else {
-            return
+        if daysPeriod != period {
+            fetchMostPopularArticles(period: period)
         }
-        
-        daysPeriod = period
-        fetchMostPopularArticles(period: period)
     }
     
     func fetchMostPopularArticles(period: MostPopularArticle.DaysPeriod? = nil) {
-        daysPeriod = period ?? .init(rawValue: remoteConfig.mostPopularArticlesDaysPeriod) ?? .one
+        let period = period ?? .init(rawValue: remoteConfig.mostPopularArticlesDaysPeriod) ?? .one
         
         articleService
-            .fetchMostPopularArticles(for: daysPeriod)
+            .fetchMostPopularArticles(for: period)
             .handleLoading(in: self, keyPath: \.isLoading, event: .mostPopulars)
             .sinkResult { [weak self] result in
                 switch result {
                 case .success(let articles):
                     self?.articles = articles
+                    self?.daysPeriod = period
 
                 case .failure(let error):
                     self?.alertInfo = .error(error.localizedDescription)

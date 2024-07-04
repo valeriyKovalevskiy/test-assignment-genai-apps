@@ -3,7 +3,8 @@ import Foundation
 
 private struct RemoteConfigServiceKey: InjectionKey {
     static var currentValue: RemoteConfigServiceType = {
-
+        // any other checks like `is simulator` or anything else are ok as well
+        
         if ApplicationSettings.shared.isInSwiftUIPreviewMode {
             return RemoteConfigMock()
         }

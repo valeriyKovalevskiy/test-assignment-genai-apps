@@ -3,6 +3,7 @@ import Foundation
 
 private struct ArticleServiceKey: InjectionKey {
     static var currentValue: ArticleServiceType = {
+        // any other checks like `is simulator` or anything else are ok as well
 
         if ApplicationSettings.shared.isInSwiftUIPreviewMode {
             return ArticleServiceMock()
