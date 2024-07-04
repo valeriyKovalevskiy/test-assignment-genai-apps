@@ -24,12 +24,12 @@ extension InjectedValues {
 }
 
 protocol ArticleServiceType {
-    func fetchMostPopularArticles(for days: Int) -> AnyPublisher<MostPopularArticle, Error>
+    func fetchMostPopularArticles(for daysPeriod: MostPopularArticle.DaysPeriod) -> AnyPublisher<MostPopularArticle, Error>
 }
 
 private final class ArticleService: ArticleServiceType {
-    func fetchMostPopularArticles(for days: Int) -> AnyPublisher<MostPopularArticle, Error> {
-        API.MostPopular.Viewed(period: days)
+    func fetchMostPopularArticles(for daysPeriod: MostPopularArticle.DaysPeriod) -> AnyPublisher<MostPopularArticle, Error> {
+        API.MostPopular.Viewed(period: daysPeriod.rawValue)
             .request()
             .compactMap { try? $0.toDomain() }
             .eraseToAnyPublisher()
@@ -37,8 +37,8 @@ private final class ArticleService: ArticleServiceType {
 }
 
 private final class ArticleServiceMock: ArticleServiceType {
-    func fetchMostPopularArticles(for days: Int) -> AnyPublisher<MostPopularArticle, Error> {
-        API.MostPopular.Viewed(period: days)
+    func fetchMostPopularArticles(for daysPeriod: MostPopularArticle.DaysPeriod) -> AnyPublisher<MostPopularArticle, Error> {
+        API.MostPopular.Viewed(period: daysPeriod.rawValue)
             .fakeRequest()
             .compactMap { try? $0.toDomain() }
             .eraseToAnyPublisher()

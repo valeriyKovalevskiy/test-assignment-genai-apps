@@ -24,15 +24,15 @@ extension InjectedValues {
 }
 
 protocol RemoteConfigServiceType {
-    var mostPopularArticlesPageCount: Int { get set }
+    var mostPopularArticlesDaysPeriod: Int { get set }
 }
 
 fileprivate struct RemoteConfigDefaults {
-    static var mostPopularArticlesPageCountDefault = 1
+    static var mostPopularArticlesDaysPeriodDefault = 1
 }
 
 private final class RemoteConfig: RemoteConfigServiceType {
-    var mostPopularArticlesPageCount: Int = RemoteConfigDefaults.mostPopularArticlesPageCountDefault
+    var mostPopularArticlesDaysPeriod: Int = RemoteConfigDefaults.mostPopularArticlesDaysPeriodDefault
     
     init() {
         fetchVariables()
@@ -40,12 +40,12 @@ private final class RemoteConfig: RemoteConfigServiceType {
     
     private func fetchVariables() {
         // fetch from firebase or any other service
-        mostPopularArticlesPageCount = 30
+        mostPopularArticlesDaysPeriod = 30
     }
 }
 
 private final class RemoteConfigMock: RemoteConfigServiceType {
-    var mostPopularArticlesPageCount: Int = RemoteConfigDefaults.mostPopularArticlesPageCountDefault
+    var mostPopularArticlesDaysPeriod: Int = RemoteConfigDefaults.mostPopularArticlesDaysPeriodDefault
 
     init() {
         fetchVariables()
@@ -53,6 +53,6 @@ private final class RemoteConfigMock: RemoteConfigServiceType {
     
     private func fetchVariables() {
         // use whatever you want for testing purposes
-        mostPopularArticlesPageCount = 1
+        mostPopularArticlesDaysPeriod = 1
     }
 }
