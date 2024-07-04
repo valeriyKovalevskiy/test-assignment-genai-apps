@@ -1,1 +1,0 @@
-# test-assignment-genai-apps
