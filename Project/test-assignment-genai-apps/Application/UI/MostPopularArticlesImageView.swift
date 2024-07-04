@@ -19,11 +19,11 @@ struct MostPopularArticlesImageView: View {
                     .fade(duration: 0.25)
             } else {
                 Circle()
-                    .fill(Color.gray)
+                    .fill(Color.secondary)
             }
         }
         .frame(width: 50, height: 50)
-        .background(Color.gray)
+        .background(Color.secondary)
         .clipShape(Circle())
     }
 }

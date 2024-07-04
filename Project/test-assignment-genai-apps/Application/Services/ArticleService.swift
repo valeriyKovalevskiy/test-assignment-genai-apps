@@ -25,6 +25,7 @@ extension InjectedValues {
 }
 
 protocol ArticleServiceType {
+    // use protocols for dependency injection and for unit testing
     func fetchMostPopularArticles(for daysPeriod: MostPopularArticle.DaysPeriod) -> AnyPublisher<[MostPopularArticle], Error>
 }
 
@@ -38,6 +39,8 @@ private final class ArticleService: ArticleServiceType {
 }
 
 private final class ArticleServiceMock: ArticleServiceType {
+    // fake request will allow you to test mapping errors
+    // alternatively you could send response like `Just(.mockModel).eraseToAnyPublisher()`
     func fetchMostPopularArticles(for daysPeriod: MostPopularArticle.DaysPeriod) -> AnyPublisher<[MostPopularArticle], Error> {
         API.MostPopular.Viewed(period: daysPeriod.rawValue)
             .fakeRequest()

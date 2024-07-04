@@ -6,7 +6,7 @@ struct MostPopularArticlesView: View {
     var body: some View {
         NavigationView {
             contentView
-                .navigationBarTitleDisplayMode(.large)
+                .navigationBarTitleDisplayMode(.inline)
                 .navigationTitle("NY Times Most Popular")
                 .toolbar { toolbar }
                 .onAppear { viewModel.fetchMostPopularArticles() }
@@ -43,7 +43,7 @@ struct MostPopularArticlesView: View {
     
     private var emptyStateView: some View {
         Text("Empty")
-            .foregroundColor(.black)
+            .foregroundColor(.primary)
             .font(.headline)
     }
     
@@ -67,7 +67,7 @@ struct MostPopularArticlesView: View {
     private func makePeriodLabelText(period: MostPopularArticle.DaysPeriod?) -> some View {
         if let period = period {
             Text("\(period.rawValue) days")
-                .foregroundColor(.black)
+                .foregroundColor(.primary)
                 .font(.headline)
         }
     }
@@ -80,7 +80,7 @@ struct MostPopularArticlesView: View {
                         destination: url,
                         label: { makeArticleView(article: article) }
                     )
-                    .shadow(color: .gray, radius: 10)
+                    .shadow(color: .secondary, radius: 10)
                 }
             }
         }
@@ -95,7 +95,7 @@ struct MostPopularArticlesView: View {
             VStack(alignment: .leading, spacing: 16) {
                 Text(article.title)
                     .lineLimit(2)
-                    .foregroundColor(.black)
+                    .foregroundColor(.primary)
                     .font(.headline)
                 
                 HStack(alignment: .bottom) {
@@ -122,13 +122,13 @@ struct MostPopularArticlesView: View {
                     }
                 }
                 .font(.footnote)
-                .foregroundColor(.gray)
+                .foregroundColor(.secondary)
             }
             .multilineTextAlignment(.leading)
             
             Image(systemName: "chevron.right")
                 .font(.system(size: 24))
-                .foregroundColor(.gray)
+                .foregroundColor(.secondary)
         }
         .shadow(color: .clear, radius: 10)
     }

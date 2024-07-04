@@ -1,6 +1,10 @@
 import Foundation
 
 struct MostPopularArticle: Identifiable, Equatable {
+    
+    // some fields might be optional because i don't really know what might return this public api
+    // optional url it's ok because almost all APIs like native async image or kingfisher / sdwebimage might take optional url
+    // and use placeholders / spinners
     let id: Int
     let url: URL?
     let author: String?

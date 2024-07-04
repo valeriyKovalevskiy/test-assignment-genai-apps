@@ -7,6 +7,8 @@ extension DTO {
         let resultsCount: Int?
         let results: [DTO.MostPopularArticle]?
         
+        // it might be a syntax overhead
+        // but i prefer to use coding keys for better readability
         enum CodingKeys: String, CodingKey {
             case status
             case copyright

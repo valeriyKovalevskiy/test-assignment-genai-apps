@@ -1,6 +1,8 @@
 import Combine
 import Foundation
 
+// i've decided to implment abstract service that might simulate remote config variables fetch
+
 private struct RemoteConfigServiceKey: InjectionKey {
     static var currentValue: RemoteConfigServiceType = {
         // any other checks like `is simulator` or anything else are ok as well
@@ -29,7 +31,9 @@ protocol RemoteConfigServiceType {
 }
 
 fileprivate struct RemoteConfigDefaults {
-    static var mostPopularArticlesDaysPeriodDefault = 1
+    // removte variables  usually stored as a primitive types
+    // so that's why i've used integer instead of stricted enum cases
+    static var mostPopularArticlesDaysPeriodDefault: Int = 1
 }
 
 private final class RemoteConfig: RemoteConfigServiceType {
@@ -41,7 +45,7 @@ private final class RemoteConfig: RemoteConfigServiceType {
     
     private func fetchVariables() {
         // fetch from firebase or any other service
-        mostPopularArticlesDaysPeriod = 30
+        mostPopularArticlesDaysPeriod = 7
     }
 }
 
