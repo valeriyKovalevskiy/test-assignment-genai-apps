@@ -16,6 +16,7 @@ final class ContentViewModel: ObservableObject {
     
     @Published var isLoading: Set<LoadingContent> = .init()
     @Published var daysPeriod: MostPopularArticle.DaysPeriod = .one
+    @Published var alertInfo: AlertInfo?
 
     func changeDaysPeriod(to period: MostPopularArticle.DaysPeriod) {
         daysPeriod = period
@@ -28,13 +29,13 @@ final class ContentViewModel: ObservableObject {
         articleService
             .fetchMostPopularArticles(for: daysPeriod)
             .handleLoading(in: self, keyPath: \.isLoading, event: .mostPopulars)
-            .sinkResult { result in
+            .sinkResult { [weak self] result in
                 switch result {
-                case .success(let feed):
-                    print(feed)
-                    
+                case .success:
+                    self?.alertInfo = .message("success")
+
                 case .failure(let error):
-                    print(error)
+                    self?.alertInfo = .error(error.localizedDescription)
                 }
             }
             .store(in: &cancellables)

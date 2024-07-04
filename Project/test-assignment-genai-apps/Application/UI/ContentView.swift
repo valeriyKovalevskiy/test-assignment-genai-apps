@@ -8,6 +8,7 @@ struct ContentView: View {
             contentView
                 .toolbar { toolbar }
                 .onAppear { viewModel.fetchMostPopularArticles() }
+                .handleAlert(item: $viewModel.alertInfo)
         }
     }
     

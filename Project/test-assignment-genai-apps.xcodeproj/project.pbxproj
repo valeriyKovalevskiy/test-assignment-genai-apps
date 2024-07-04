@@ -34,6 +34,8 @@
 		04E332B52C36DC9F00B8309D /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332B42C36DC9F00B8309D /* ArticleService.swift */; };
 		04E332B72C36E24000B8309D /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332B62C36E24000B8309D /* RemoteConfigService.swift */; };
 		04E332B92C36E4BC00B8309D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332B82C36E4BC00B8309D /* ContentViewModel.swift */; };
+		04E332BB2C36EC8900B8309D /* AlertInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332BA2C36EC8900B8309D /* AlertInfo.swift */; };
+		04E332BD2C36ECD700B8309D /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332BC2C36ECD700B8309D /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		04E332B42C36DC9F00B8309D /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
 		04E332B62C36E24000B8309D /* RemoteConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
 		04E332B82C36E4BC00B8309D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		04E332BA2C36EC8900B8309D /* AlertInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertInfo.swift; sourceTree = "<group>"; };
+		04E332BC2C36ECD700B8309D /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 				04E3328F2C36CBDA00B8309D /* Publisher+Extension.swift */,
 				04E332AB2C36DA0100B8309D /* Publishers+Extension.swift */,
 				04E332912C36CC2F00B8309D /* UIApplication+Extension.swift */,
+				04E332BC2C36ECD700B8309D /* View+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 			children = (
 				04E332882C36C9CF00B8309D /* ApplicationSettings.swift */,
 				04E332B22C36DC6D00B8309D /* DependencyInjection.swift */,
+				04E332BA2C36EC8900B8309D /* AlertInfo.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -310,6 +316,7 @@
 				04E332892C36C9CF00B8309D /* ApplicationSettings.swift in Sources */,
 				04E332852C36C84900B8309D /* Target.swift in Sources */,
 				04E332902C36CBDA00B8309D /* Publisher+Extension.swift in Sources */,
+				04E332BD2C36ECD700B8309D /* View+Extension.swift in Sources */,
 				04E3326B2C36BABF00B8309D /* ContentView.swift in Sources */,
 				04E332822C36C84900B8309D /* API.swift in Sources */,
 				04E332A22C36D5EF00B8309D /* MostPopularArticle.swift in Sources */,
@@ -321,6 +328,7 @@
 				04E332B92C36E4BC00B8309D /* ContentViewModel.swift in Sources */,
 				04E332952C36CE0100B8309D /* MostPopular.swift in Sources */,
 				04E3329B2C36D24800B8309D /* ApplicationSecrets.swift in Sources */,
+				04E332BB2C36EC8900B8309D /* AlertInfo.swift in Sources */,
 				04E3328E2C36CB9300B8309D /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
