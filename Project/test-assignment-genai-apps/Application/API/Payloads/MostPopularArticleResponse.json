@@ -1,0 +1,1285 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/8caf03f9-ad74-5bca-90a5-fa90bf38a1d0",
+      "url": "https://www.nytimes.com/2024/07/02/us/politics/biden-lapses.html",
+      "id": 100000009547547,
+      "asset_id": 100000009547547,
+      "source": "New York Times",
+      "published_date": "2024-07-02",
+      "updated": "2024-07-03 08:25:53",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "United States Politics and Government;Presidential Election of 2024;Age, Chronological;Biden, Joseph R Jr;Democratic Party",
+      "column": null,
+      "byline": "By Peter Baker, David E. Sanger, Zolan Kanno-Youngs and Katie Rogers",
+      "type": "Article",
+      "title": "Biden’s Lapses Are Said to Be Increasingly Common and Worrisome",
+      "abstract": "People who have spent time with President Biden over the last few months or so said the lapses appear to have grown more frequent, more pronounced and, after Thursday’s debate, more worrisome.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Presidential Election of 2024",
+        "Age, Chronological"
+      ],
+      "org_facet": [
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden boarding Air Force One in early June. In the three weeks leading up to the debate against former President Donald J. Trump, he kept up a grueling travel schedule that exhausted even much younger aides.",
+          "copyright": "Al Drago for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/01dc-biden-debate-top-gptj/01dc-biden-debate-top-gptj-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/01dc-biden-debate-top-gptj/01dc-biden-debate-top-gptj-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/01dc-biden-debate-top-gptj/01dc-biden-debate-top-gptj-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/7e5a7f0a-9082-5150-a48c-bca511bc083c",
+      "url": "https://www.nytimes.com/2024/07/03/opinion/biden-harris-trump-democrats.html",
+      "id": 100000009553254,
+      "asset_id": 100000009553254,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 23:43:52",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "United States Politics and Government;Presidential Election of 2024;Debates (Political);Polls and Public Opinion;Biden, Joseph R Jr;Harris, Kamala D;Clinton, Hillary Rodham;Democratic Party",
+      "column": null,
+      "byline": "By Charles M. Blow",
+      "type": "Article",
+      "title": "Forcing Biden Out Would Have Only One Beneficiary: Trump",
+      "abstract": "Instead of clearing the way for victory, liberals may well be paving the way for defeat.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Presidential Election of 2024",
+        "Debates (Political)",
+        "Polls and Public Opinion"
+      ],
+      "org_facet": [
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Harris, Kamala D",
+        "Clinton, Hillary Rodham"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Tom Brenner for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03blow3-gwpk/03blow3-gwpk-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03blow3-gwpk/03blow3-gwpk-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03blow3-gwpk/03blow3-gwpk-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/9f2be5b2-d16b-5956-a84f-aaf4f23f57fc",
+      "url": "https://www.nytimes.com/2024/07/03/us/politics/biden-donors-debate.html",
+      "id": 100000009552651,
+      "asset_id": 100000009552651,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 23:08:36",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2024;Campaign Finance;Biden, Joseph R Jr;Conway, Ron;Dimon, James;Harris, Kamala D;Hoffman, Reid Garrett;Klarman, Seth A;Moskovitz, Dustin;Newsom, Gavin;Novogratz, Michael;Whitmer, Gretchen;American Bridge Co;Democracy Alliance;Democratic Party;Women Donors Network",
+      "column": null,
+      "byline": "By Theodore Schleifer, Kenneth P. Vogel, Shane Goldmacher and Kate Kelly",
+      "type": "Article",
+      "title": "Big Donors Turn on Biden. Quietly.",
+      "abstract": "Some of the president’s past supporters want a new candidate, but they are leery of going public.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "Campaign Finance"
+      ],
+      "org_facet": [
+        "American Bridge Co",
+        "Democracy Alliance",
+        "Democratic Party",
+        "Women Donors Network"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Conway, Ron",
+        "Dimon, James",
+        "Harris, Kamala D",
+        "Hoffman, Reid Garrett",
+        "Klarman, Seth A",
+        "Moskovitz, Dustin",
+        "Newsom, Gavin",
+        "Novogratz, Michael",
+        "Whitmer, Gretchen"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Earlier moves by donors to mount campaigns to pressure President Biden to step aside have either fizzled out or prompted pushback from fellow contributors and operatives.",
+          "copyright": "Haiyun Jiang for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03pol-biden-donors-jbwk/03pol-biden-donors-jbwk-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03pol-biden-donors-jbwk/03pol-biden-donors-jbwk-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03pol-biden-donors-jbwk/03pol-biden-donors-jbwk-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/f8e0f3c3-0ba8-5c6a-b015-9baecb368d87",
+      "url": "https://www.nytimes.com/2024/07/03/style/elder-care-parents-live-in-caregiving.html",
+      "id": 100000009536977,
+      "asset_id": 100000009536977,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 09:00:07",
+      "section": "Style",
+      "subsection": "",
+      "nytdsection": "style",
+      "adx_keywords": "Customs, Etiquette and Manners",
+      "column": null,
+      "byline": "By Philip Galanes",
+      "type": "Article",
+      "title": "How Can I Tell My Elderly Mother That She Can’t Live With Me?",
+      "abstract": "A reader still picking up the pieces after a recent divorce is wrestling with guilt for not wanting to take his mother in, knowing she wouldn’t hesitate to help him.",
+      "des_facet": [
+        "Customs, Etiquette and Manners"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Miguel Porlan",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2021/06/20/fashion/socialqs-2021-artwork/socialqs-2021-artwork-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/06/20/fashion/socialqs-2021-artwork/socialqs-2021-artwork-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/06/20/fashion/socialqs-2021-artwork/socialqs-2021-artwork-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/ee3938d1-ea16-57e3-b220-4d112e3efa4d",
+      "url": "https://www.nytimes.com/2024/07/03/opinion/jill-biden-first-lady-joe.html",
+      "id": 100000009551514,
+      "asset_id": 100000009551514,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 08:03:59",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Presidential Election of 2024;Marriages;Biden, Jill Tracy Jacobs;Biden, Joseph R Jr;Clinton, Hillary Rodham;Dole, Elizabeth;Obama, Michelle;Vogue",
+      "column": null,
+      "byline": "By Michelle Cottle",
+      "type": "Article",
+      "title": "The ‘Philly Girl’ Shielding Biden From the Bad News",
+      "abstract": "Those urging Jill Biden to persuade her husband to drop out may misunderstand the nature of their marriage.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "Marriages"
+      ],
+      "org_facet": [
+        "Vogue"
+      ],
+      "per_facet": [
+        "Biden, Jill Tracy Jacobs",
+        "Biden, Joseph R Jr",
+        "Clinton, Hillary Rodham",
+        "Dole, Elizabeth",
+        "Obama, Michelle"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Damon Winter/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03cottle1-cpjm/03cottle1-cpjm-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03cottle1-cpjm/03cottle1-cpjm-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03cottle1-cpjm/03cottle1-cpjm-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/7cb9daeb-0158-5eea-b1af-db65803f74cc",
+      "url": "https://www.nytimes.com/2024/07/03/us/mountain-house-california-housing-heat.html",
+      "id": 100000009549849,
+      "asset_id": 100000009549849,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 22:52:18",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Real Estate and Housing (Residential);Heat and Heat Waves;Summer (Season);Global Warming;Central Valley (Calif);San Francisco Bay Area (Calif);Mountain House, Calif.;Tracy, Calif.",
+      "column": null,
+      "byline": "By Jonathan Wolfe and Mike Kai Chen",
+      "type": "Article",
+      "title": "Some Californians Found Dream Homes Inland. But It Sure Is Hot There.",
+      "abstract": "Residents moved to Mountain House, Calif., to escape soaring housing costs near the coast. Now, they just have to survive the searing summer heat.",
+      "des_facet": [
+        "Real Estate and Housing (Residential)",
+        "Heat and Heat Waves",
+        "Summer (Season)",
+        "Global Warming"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Central Valley (Calif)",
+        "San Francisco Bay Area (Calif)",
+        "Mountain House, Calif.",
+        "Tracy, Calif."
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "In Mountain House, Calif., temperatures yesterday reached 107 degrees, the start of what is expected to be a weeklong heatwave. High temperatures in the region average 95 degrees in a typical July.",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03nat-california-heat-jbph/03nat-california-heat-jbph-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03nat-california-heat-jbph/03nat-california-heat-jbph-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03nat-california-heat-jbph/03nat-california-heat-jbph-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/e65e8451-e5de-5806-8360-e4f261b4dd1e",
+      "url": "https://www.nytimes.com/2024/07/02/books/review/maureen-callahan-ask-not.html",
+      "id": 100000009501299,
+      "asset_id": 100000009501299,
+      "source": "New York Times",
+      "published_date": "2024-07-02",
+      "updated": "2024-07-02 15:39:30",
+      "section": "Books",
+      "subsection": "Book Review",
+      "nytdsection": "books",
+      "adx_keywords": "Books and Literature;Sex Crimes;Kennedy Family;Kennedy, Edward M;Kennedy, John Fitzgerald;Kopechne, Mary Jo;Kennedy, Robert F Jr;Callahan, Maureen (Journalist)",
+      "column": null,
+      "byline": "By Louis Bayard",
+      "type": "Article",
+      "title": "A Horror Story Starring the Monstrous Men of Camelot",
+      "abstract": "Maureen Callahan’s lurid “Ask Not” paints the Kennedys as mad, bad and dangerous for women to know.",
+      "des_facet": [
+        "Books and Literature",
+        "Sex Crimes"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Kennedy Family",
+        "Kennedy, Edward M",
+        "Kennedy, John Fitzgerald",
+        "Kopechne, Mary Jo",
+        "Kennedy, Robert F Jr",
+        "Callahan, Maureen (Journalist)"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "In Maureen Callahan’s telling, Jacqueline Kennedy was terrorized not just by her husband’s infidelities, but by the judgments of fellow Kennedy women. Left to right: Jacqueline Kennedy, Jean Kennedy Smith and Eunice Kennedy Shriver.",
+          "copyright": "Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/books/review/02Callahan-Review/02Callahan-Review-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/books/review/02Callahan-Review/02Callahan-Review-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/books/review/02Callahan-Review/02Callahan-Review-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/1a7488b8-9c0a-5f97-964c-238a228974cc",
+      "url": "https://www.nytimes.com/2024/07/03/us/politics/supreme-court-immunity-decision.html",
+      "id": 100000009551123,
+      "asset_id": 100000009551123,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 23:11:15",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Immunity from Prosecution;United States Politics and Government;Decisions and Verdicts;Presidents and Presidency (US);Federal Criminal Case Against Trump (2020 Election Case);Trump, Donald J;Roberts, John G Jr;Sotomayor, Sonia;Supreme Court (US)",
+      "column": null,
+      "byline": "By Alan Feuer",
+      "type": "Article",
+      "title": "In Immunity Decision, Clashing Views of the Nature of Politics",
+      "abstract": "The Supreme Court’s conservative majority largely embraced Donald Trump’s dark view of tit-for-tat partisan prosecutions while liberals cited the prospect of power unchecked by legal accountability.",
+      "des_facet": [
+        "Immunity from Prosecution",
+        "United States Politics and Government",
+        "Decisions and Verdicts",
+        "Presidents and Presidency (US)",
+        "Federal Criminal Case Against Trump (2020 Election Case)"
+      ],
+      "org_facet": [
+        "Supreme Court (US)"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "Roberts, John G Jr",
+        "Sotomayor, Sonia"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "In its ruling, the Supreme Court’s majority tacitly bought into former President Donald J. Trump’s portrayal of himself as a victim of partisan legal warfare.",
+          "copyright": "Ash Ponders for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/multimedia/02dc-assess-02-wkcf/02dc-assess-02-wkcf-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/multimedia/02dc-assess-02-wkcf/02dc-assess-02-wkcf-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/multimedia/02dc-assess-02-wkcf/02dc-assess-02-wkcf-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/65663fde-5bdd-566b-9540-13be569b0a63",
+      "url": "https://www.nytimes.com/2024/07/03/world/asia/india-stampede-family.html",
+      "id": 100000009553198,
+      "asset_id": 100000009553198,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 22:44:41",
+      "section": "World",
+      "subsection": "Asia Pacific",
+      "nytdsection": "world",
+      "adx_keywords": "Deaths (Fatalities);Women and Girls;Caste Systems;Stampedes;Income Inequality;India",
+      "column": null,
+      "byline": "By Suhasini Raj and Saumya Khandelwal",
+      "type": "Article",
+      "title": "A Family Loses 3 Generations of Women in India Crowd’s Panic",
+      "abstract": "They had worked hard for years to make a life: “Now it’s over with the death of my dear daughter, wife and mother — in one single blow.”",
+      "des_facet": [
+        "Deaths (Fatalities)",
+        "Women and Girls",
+        "Caste Systems",
+        "Stampedes",
+        "Income Inequality"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "India"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Vinod Kumar, center, mourning over the bodies of his wife and daughter, who died in Tuesday’s stampede.",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03india-family-01-kmbz/03india-family-01-kmbz-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03india-family-01-kmbz/03india-family-01-kmbz-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03india-family-01-kmbz/03india-family-01-kmbz-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/b9066aec-e9a5-50c9-ac6a-871043ad9f95",
+      "url": "https://www.nytimes.com/2024/07/02/well/sunscreen-vitamin-d-skin-cancer.html",
+      "id": 100000009532587,
+      "asset_id": 100000009532587,
+      "source": "New York Times",
+      "published_date": "2024-07-02",
+      "updated": "2024-07-02 05:02:07",
+      "section": "Well",
+      "subsection": "",
+      "nytdsection": "well",
+      "adx_keywords": "Sunscreen;Sunlight;Vitamin D;Skin;Content Type: Service;Skin Cancer",
+      "column": null,
+      "byline": "By Caroline Hopkins",
+      "type": "Article",
+      "title": "Do You Really Need Sunscreen Every Day?",
+      "abstract": "Some worry it robs you of the benefits of sunshine, like vitamin D. We asked experts to weigh in.",
+      "des_facet": [
+        "Sunscreen",
+        "Sunlight",
+        "Vitamin D",
+        "Skin",
+        "Content Type: Service",
+        "Skin Cancer"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Lauren Pisano for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/multimedia/02WELL-DAILY-SUNSCREEN3-kqzv/02WELL-DAILY-SUNSCREEN3-kqzv-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/multimedia/02WELL-DAILY-SUNSCREEN3-kqzv/02WELL-DAILY-SUNSCREEN3-kqzv-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/multimedia/02WELL-DAILY-SUNSCREEN3-kqzv/02WELL-DAILY-SUNSCREEN3-kqzv-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/b9c6e170-4564-5f36-81c9-a1f90e09af55",
+      "url": "https://www.nytimes.com/2024/07/03/opinion/abortion-supreme-court.html",
+      "id": 100000009551611,
+      "asset_id": 100000009551611,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 23:43:49",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Decisions and Verdicts;Federal-State Relations (US);Conservatism (US Politics);Abortion;Pregnancy and Childbirth;Hospitals;Courts and the Judiciary;Emergency Medical Treatment;Alito, Samuel A Jr;Barrett, Amy Coney;Biden, Joseph R Jr;Gorsuch, Neil M;Kagan, Elena;Kavanaugh, Brett M;Sotomayor, Sonia;Thomas, Clarence;Winmill, B Lynn;Alliance Defending Freedom;Supreme Court (US);Idaho;United States",
+      "column": null,
+      "byline": "By Linda Greenhouse",
+      "type": "Article",
+      "title": "A Dismissed Abortion Case Points to Internal Tensions and Dysfunction at the Supreme Court",
+      "abstract": "The court dismisses an abortion case it now says it should never have accepted, opening a window on internal tensions.",
+      "des_facet": [
+        "Decisions and Verdicts",
+        "Federal-State Relations (US)",
+        "Conservatism (US Politics)",
+        "Abortion",
+        "Pregnancy and Childbirth",
+        "Hospitals",
+        "Courts and the Judiciary",
+        "Emergency Medical Treatment"
+      ],
+      "org_facet": [
+        "Alliance Defending Freedom",
+        "Supreme Court (US)"
+      ],
+      "per_facet": [
+        "Alito, Samuel A Jr",
+        "Barrett, Amy Coney",
+        "Biden, Joseph R Jr",
+        "Gorsuch, Neil M",
+        "Kagan, Elena",
+        "Kavanaugh, Brett M",
+        "Sotomayor, Sonia",
+        "Thomas, Clarence",
+        "Winmill, B Lynn"
+      ],
+      "geo_facet": [
+        "Idaho",
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Sarah Palmer for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/04/multimedia/03greenhouse-pbgm/03greenhouse-pbgm-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/04/multimedia/03greenhouse-pbgm/03greenhouse-pbgm-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/04/multimedia/03greenhouse-pbgm/03greenhouse-pbgm-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/d627dea8-e64e-5e1d-aad9-3e1b81333ae6",
+      "url": "https://www.nytimes.com/2024/07/03/us/politics/kamala-harris-biden-president-debate.html",
+      "id": 100000009554157,
+      "asset_id": 100000009554157,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-04 08:55:51",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2024;Vice Presidents and Vice Presidency (US);Biden, Joseph R Jr;Castro, Julian;Clyburn, James E;Harris, Kamala D;Jean-Pierre, Karine;Newsom, Gavin;Whitmer, Gretchen;Democratic Party;Make America Great Again (MAGA) Inc;National Republican Congressional Committee",
+      "column": null,
+      "byline": "By Kellen Browning and Simon J. Levien",
+      "type": "Article",
+      "title": "Here Comes the ‘KHive’: Buzz for Kamala Harris Grows After Biden’s Debate Stumble",
+      "abstract": "The vice president is receiving support from both prominent Democrats and social media fans who show their enthusiasm with coconut tree emojis.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "Vice Presidents and Vice Presidency (US)"
+      ],
+      "org_facet": [
+        "Democratic Party",
+        "Make America Great Again (MAGA) Inc",
+        "National Republican Congressional Committee"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Castro, Julian",
+        "Clyburn, James E",
+        "Harris, Kamala D",
+        "Jean-Pierre, Karine",
+        "Newsom, Gavin",
+        "Whitmer, Gretchen"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Vice President Kamala Harris in Atlanta last month. With President Biden besieged with questions over his age and mental acuity, she is seeing a surge of support.",
+          "copyright": "David Walter Banks for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03pol-swiper-kamala-harris-tfwl/03pol-swiper-kamala-harris-tfwl-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03pol-swiper-kamala-harris-tfwl/03pol-swiper-kamala-harris-tfwl-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03pol-swiper-kamala-harris-tfwl/03pol-swiper-kamala-harris-tfwl-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/f078a685-77c7-5e78-840f-7571cb6a25df",
+      "url": "https://www.nytimes.com/article/how-to-grill-a-hot-dog.html",
+      "id": 100000009492230,
+      "asset_id": 100000009492230,
+      "source": "New York Times",
+      "published_date": "2024-07-01",
+      "updated": "2024-07-03 14:06:47",
+      "section": "Food",
+      "subsection": "",
+      "nytdsection": "food",
+      "adx_keywords": "Hot Dogs and Frankfurters;Content Type: Service;Cooking and Cookbooks;Grilling (Cooking);United States",
+      "column": null,
+      "byline": "By Ali Slagle",
+      "type": "Article",
+      "title": "The Unexpected Trick to Grilling Better Hot Dogs",
+      "abstract": "Millions of Americans will be eating hot dogs this week. Here’s a streamlined method with a final easy tweak to ensure yours sizzles and snaps.",
+      "des_facet": [
+        "Hot Dogs and Frankfurters",
+        "Content Type: Service",
+        "Cooking and Cookbooks",
+        "Grilling (Cooking)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ali Slagle’s grilled hot dogs.",
+          "copyright": "Christopher Testani for The New York Times. Food Stylist: Simon Andrews.",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/28/multimedia/28GRILL-HOTDOGS-REX-cqwj-copy/01GRILL-HOTDOGS-REX-cqwj-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/28/multimedia/28GRILL-HOTDOGS-REX-cqwj-copy/01GRILL-HOTDOGS-REX-cqwj-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/28/multimedia/28GRILL-HOTDOGS-REX-cqwj-copy/01GRILL-HOTDOGS-REX-cqwj-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/ec248abe-bafc-5afc-af1f-146709d07f24",
+      "url": "https://www.nytimes.com/2024/07/03/style/summer-camp-skincare-routine.html",
+      "id": 100000009551527,
+      "asset_id": 100000009551527,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 14:09:15",
+      "section": "Style",
+      "subsection": "",
+      "nytdsection": "style",
+      "adx_keywords": "Cosmetics and Toiletries;Camps and Camping;Habits and Routines (Behavior);Sephora;TikTok (ByteDance)",
+      "column": null,
+      "byline": "By Rachel Sherman",
+      "type": "Article",
+      "title": "Packing for Camp? Leave Your Sephora Hauls at Home.",
+      "abstract": "As young girls continue to embrace elaborate skin care routines, summer camps want to focus on inner beauty.",
+      "des_facet": [
+        "Cosmetics and Toiletries",
+        "Camps and Camping",
+        "Habits and Routines (Behavior)"
+      ],
+      "org_facet": [
+        "Sephora",
+        "TikTok (ByteDance)"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "At Rockbrook Summer Camp for Girls, in western North Carolina, campers are packing their favorite skincare products, according to the staff.",
+          "copyright": "Steve Barker",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03CAMPSEPHORA1-vbfh/03CAMPSEPHORA1-vbfh-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03CAMPSEPHORA1-vbfh/03CAMPSEPHORA1-vbfh-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03CAMPSEPHORA1-vbfh/03CAMPSEPHORA1-vbfh-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/779b50aa-9394-5263-ae67-ff16f483b4ad",
+      "url": "https://www.nytimes.com/2024/07/03/opinion/letters/joe-biden-alternative-candidates.html",
+      "id": 100000009549341,
+      "asset_id": 100000009549341,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 23:44:33",
+      "section": "Opinion",
+      "subsection": "Letters",
+      "nytdsection": "opinion",
+      "adx_keywords": "United States Politics and Government;Presidential Election of 2024;Democratic National Convention;Biden, Joseph R Jr;Beshear, Andrew G (1977- );Booker, Cory A;Buttigieg, Pete (1982- );Cheney, Liz;Emanuel, Rahm;Gore, Al;Harris, Kamala D;Kinzinger, Adam;Manchin, Joe III;Newsom, Gavin;Pritzker, J B;Shapiro, Josh (1973- );Schumer, Charles E;Trump, Donald J;Whitmer, Gretchen;Democratic Party",
+      "column": null,
+      "byline": "",
+      "type": "Article",
+      "title": "If Biden Doesn’t Run, Nominate …",
+      "abstract": "Readers’ suggestions include Kamala Harris, Cory Booker, Chuck Schumer, Joe Manchin, Al Gore and Andy Beshear.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Presidential Election of 2024",
+        "Democratic National Convention"
+      ],
+      "org_facet": [
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Beshear, Andrew G (1977- )",
+        "Booker, Cory A",
+        "Buttigieg, Pete (1982- )",
+        "Cheney, Liz",
+        "Emanuel, Rahm",
+        "Gore, Al",
+        "Harris, Kamala D",
+        "Kinzinger, Adam",
+        "Manchin, Joe III",
+        "Newsom, Gavin",
+        "Pritzker, J B",
+        "Shapiro, Josh (1973- )",
+        "Schumer, Charles E",
+        "Trump, Donald J",
+        "Whitmer, Gretchen"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Damon Winter/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/30/multimedia/28Biden1-tbqm/28Biden1-tbqm-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/30/multimedia/28Biden1-tbqm/28Biden1-tbqm-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/30/multimedia/28Biden1-tbqm/28Biden1-tbqm-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/705b43f1-099c-5931-8b0d-fdcec3959035",
+      "url": "https://www.nytimes.com/2024/07/02/us/politics/biden-debate.html",
+      "id": 100000009552719,
+      "asset_id": 100000009552719,
+      "source": "New York Times",
+      "published_date": "2024-07-02",
+      "updated": "2024-07-03 10:16:37",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "United States Politics and Government;Presidential Election of 2024;Debates (Political);Biden, Joseph R Jr;Trump, Donald J;Democratic Party",
+      "column": null,
+      "byline": "By Michael D. Shear",
+      "type": "Article",
+      "title": "Acknowledging Debate Debacle, Biden Says He ‘Fell Asleep on the Stage’",
+      "abstract": "President Biden blamed his international travel schedule for his disjointed performance, calling it “not an excuse but an explanation.”",
+      "des_facet": [
+        "United States Politics and Government",
+        "Presidential Election of 2024",
+        "Debates (Political)"
+      ],
+      "org_facet": [
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden’s comments came as the White House struggled to respond to a chorus of anxiety within the Democratic Party about whether he is capable of mounting a winning campaign in November.",
+          "copyright": "Eric Lee/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/multimedia/02dc-biden-vjcg/02dc-biden-vjcg-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/multimedia/02dc-biden-vjcg/02dc-biden-vjcg-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/02/multimedia/02dc-biden-vjcg/02dc-biden-vjcg-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/097e7148-8201-5881-a0d4-d2f1e0a9ebe5",
+      "url": "https://www.nytimes.com/2024/07/03/business/economy/summer-travel-economy.html",
+      "id": 100000009491344,
+      "asset_id": 100000009491344,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 23:19:06",
+      "section": "Business",
+      "subsection": "Economy",
+      "nytdsection": "business",
+      "adx_keywords": "Travel and Vacations;Income Inequality;Prices (Fares, Fees and Rates);United States Economy;United States Travel Assn;Federal Reserve System",
+      "column": null,
+      "byline": "By Jeanna Smialek",
+      "type": "Article",
+      "title": "America’s Divided Summer Economy Is Coming to an Airport or Hotel Near You",
+      "abstract": "The gulf between higher- and lower-income consumers has been widening for years, but it is expected to show up especially clearly in travel this season.",
+      "des_facet": [
+        "Travel and Vacations",
+        "Income Inequality",
+        "Prices (Fares, Fees and Rates)",
+        "United States Economy"
+      ],
+      "org_facet": [
+        "United States Travel Assn",
+        "Federal Reserve System"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Outbound international travel is still booming, domestic leisure travel is holding up, and even business travel is coming back after a sharp decline that started in 2020.",
+          "copyright": "Mario Tama/Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/28/multimedia/00dc-summertravel-03-ckzq/00dc-summertravel-03-ckzq-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/28/multimedia/00dc-summertravel-03-ckzq/00dc-summertravel-03-ckzq-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/28/multimedia/00dc-summertravel-03-ckzq/00dc-summertravel-03-ckzq-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/37694dbe-f424-5188-b7b6-cfd04173f20c",
+      "url": "https://www.nytimes.com/2024/07/02/business/media/chet-hanks-racist-meme.html",
+      "id": 100000009549510,
+      "asset_id": 100000009549510,
+      "source": "New York Times",
+      "published_date": "2024-07-02",
+      "updated": "2024-07-04 03:17:15",
+      "section": "Business",
+      "subsection": "Media",
+      "nytdsection": "business",
+      "adx_keywords": "Right-Wing Extremism and Alt-Right;Whites;Social Media;Race and Ethnicity;Anti-Semitism;Discrimination;Men and Boys;Homosexuality and Bisexuality;Hanks, Chet (1990- );Global Project Against Hate and Extremism",
+      "column": null,
+      "byline": "By Steven Lee Myers",
+      "type": "Article",
+      "title": "How Tom Hanks’s Son Spawned a Hateful Meme Online",
+      "abstract": "When Chet Hanks first used the phrase “white boy summer,” it was meant to be fun and playful, he said. Now it has been appropriated around the world by white supremacists and other hate groups.",
+      "des_facet": [
+        "Right-Wing Extremism and Alt-Right",
+        "Whites",
+        "Social Media",
+        "Race and Ethnicity",
+        "Anti-Semitism",
+        "Discrimination",
+        "Men and Boys",
+        "Homosexuality and Bisexuality"
+      ],
+      "org_facet": [
+        "Global Project Against Hate and Extremism"
+      ],
+      "per_facet": [
+        "Hanks, Chet (1990- )"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Chet Hanks had previously faced criticism for defending his use of a common racial slur and for cultural appropriation.",
+          "copyright": "Michael Buckner/Variety, via Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/04/business/03chethanks1-print/DISINFO-HANKS-1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/04/business/03chethanks1-print/DISINFO-HANKS-1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/04/business/03chethanks1-print/DISINFO-HANKS-1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/c030a97f-cc9e-5683-9072-3eb0e997f1b4",
+      "url": "https://www.nytimes.com/2024/07/02/opinion/biden-trump-step-aside.html",
+      "id": 100000009551097,
+      "asset_id": 100000009551097,
+      "source": "New York Times",
+      "published_date": "2024-07-02",
+      "updated": "2024-07-04 03:18:08",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "United States Politics and Government;Presidential Election of 2024;Debates (Political);Age, Chronological;Biden, Joseph R Jr;Trump, Donald J;Democratic Party",
+      "column": null,
+      "byline": "By Thomas L. Friedman",
+      "type": "Article",
+      "title": "The Question President Biden Needs to Ask Himself. Now.",
+      "abstract": "Trump fears that Biden will demonstrate the difference between a leader who puts the country first and a leader who put himself first.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Presidential Election of 2024",
+        "Debates (Political)",
+        "Age, Chronological"
+      ],
+      "org_facet": [
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Damon Winter/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/02friedman-lqck/02friedman-lqck-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/02friedman-lqck/02friedman-lqck-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/02friedman-lqck/02friedman-lqck-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/d230e015-71d9-58b4-be82-a0ffcfa3a5f7",
+      "url": "https://www.nytimes.com/2024/07/03/us/politics/biden-campaign-democrats.html",
+      "id": 100000009551782,
+      "asset_id": 100000009551782,
+      "source": "New York Times",
+      "published_date": "2024-07-03",
+      "updated": "2024-07-03 23:02:43",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2024;Biden, Joseph R Jr;Buttigieg, Pete (1982- );Clyburn, James E;Doggett, Lloyd;Gluesenkamp Perez, Marie;Golden, Jared;Harris, Kamala D;Jean-Pierre, Karine;Jeffries, Hakeem;Newsom, Gavin;Pelosi, Nancy;Schumer, Charles E;Walz, Tim;Whitehouse, Sheldon;Whitmer, Gretchen;Zients, Jeffrey D;Democratic Governors Assn;Democratic National Committee;Democratic Party",
+      "column": null,
+      "byline": "By Lisa Lerer, Shane Goldmacher and Maggie Haberman",
+      "type": "Article",
+      "title": "Biden’s Team Scrambles to Contain First Democratic Defections",
+      "abstract": "Leading Democrats have lent legitimacy to questions about the president’s mental acuity, and made clear that the matter of his stepping aside is far from settled.",
+      "des_facet": [
+        "Presidential Election of 2024"
+      ],
+      "org_facet": [
+        "Democratic Governors Assn",
+        "Democratic National Committee",
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Buttigieg, Pete (1982- )",
+        "Clyburn, James E",
+        "Doggett, Lloyd",
+        "Gluesenkamp Perez, Marie",
+        "Golden, Jared",
+        "Harris, Kamala D",
+        "Jean-Pierre, Karine",
+        "Jeffries, Hakeem",
+        "Newsom, Gavin",
+        "Pelosi, Nancy",
+        "Schumer, Charles E",
+        "Walz, Tim",
+        "Whitehouse, Sheldon",
+        "Whitmer, Gretchen",
+        "Zients, Jeffrey D"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Several Democratic figures questioned on Tuesday President Biden’s decision to stay in the presidential race.",
+          "copyright": "Haiyun Jiang for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03pol-biden-campaign-topart-zkwg/03pol-biden-campaign-topart-zkwg-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03pol-biden-campaign-topart-zkwg/03pol-biden-campaign-topart-zkwg-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/03/multimedia/03pol-biden-campaign-topart-zkwg/03pol-biden-campaign-topart-zkwg-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}
