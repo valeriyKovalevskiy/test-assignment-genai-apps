@@ -30,6 +30,10 @@
 		04E332A52C36D60800B8309D /* MostPopularArticleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 04E332A42C36D60800B8309D /* MostPopularArticleResponse.json */; };
 		04E332A72C36D70D00B8309D /* DTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332A62C36D70D00B8309D /* DTO.swift */; };
 		04E332AC2C36DA0100B8309D /* Publishers+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332AB2C36DA0100B8309D /* Publishers+Extension.swift */; };
+		04E332B32C36DC6D00B8309D /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332B22C36DC6D00B8309D /* DependencyInjection.swift */; };
+		04E332B52C36DC9F00B8309D /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332B42C36DC9F00B8309D /* ArticleService.swift */; };
+		04E332B72C36E24000B8309D /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332B62C36E24000B8309D /* RemoteConfigService.swift */; };
+		04E332B92C36E4BC00B8309D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E332B82C36E4BC00B8309D /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +59,10 @@
 		04E332A42C36D60800B8309D /* MostPopularArticleResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MostPopularArticleResponse.json; sourceTree = "<group>"; };
 		04E332A62C36D70D00B8309D /* DTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTO.swift; sourceTree = "<group>"; };
 		04E332AB2C36DA0100B8309D /* Publishers+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publishers+Extension.swift"; sourceTree = "<group>"; };
+		04E332B22C36DC6D00B8309D /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		04E332B42C36DC9F00B8309D /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		04E332B62C36E24000B8309D /* RemoteConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
+		04E332B82C36E4BC00B8309D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +183,8 @@
 		04E332A92C36D85400B8309D /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				04E332AE2C36DC2100B8309D /* Helpers */,
+				04E332AD2C36DC0900B8309D /* Services */,
 				04E332812C36C84900B8309D /* API */,
 				04E3329E2C36D5CC00B8309D /* DomainModels */,
 				04E3328A2C36CA2600B8309D /* Extensions */,
@@ -187,11 +197,29 @@
 		04E332AA2C36D8F800B8309D /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				04E332882C36C9CF00B8309D /* ApplicationSettings.swift */,
 				04E3326A2C36BABF00B8309D /* ContentView.swift */,
+				04E332B82C36E4BC00B8309D /* ContentViewModel.swift */,
 				04E332682C36BABF00B8309D /* test_assignment_genai_appsApp.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		04E332AD2C36DC0900B8309D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04E332B42C36DC9F00B8309D /* ArticleService.swift */,
+				04E332B62C36E24000B8309D /* RemoteConfigService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04E332AE2C36DC2100B8309D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04E332882C36C9CF00B8309D /* ApplicationSettings.swift */,
+				04E332B22C36DC6D00B8309D /* DependencyInjection.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,10 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E332B52C36DC9F00B8309D /* ArticleService.swift in Sources */,
 				04E332972C36CE7600B8309D /* Data+Extension.swift in Sources */,
 				04E332872C36C84900B8309D /* TargetTypes.swift in Sources */,
 				04E3328C2C36CA2E00B8309D /* Bundle+Extension.swift in Sources */,
+				04E332B32C36DC6D00B8309D /* DependencyInjection.swift in Sources */,
 				04E332A02C36D5E400B8309D /* DTO.MostPopularArticle.swift in Sources */,
+				04E332B72C36E24000B8309D /* RemoteConfigService.swift in Sources */,
 				04E332892C36C9CF00B8309D /* ApplicationSettings.swift in Sources */,
 				04E332852C36C84900B8309D /* Target.swift in Sources */,
 				04E332902C36CBDA00B8309D /* Publisher+Extension.swift in Sources */,
@@ -287,6 +318,7 @@
 				04E332A72C36D70D00B8309D /* DTO.swift in Sources */,
 				04E332862C36C84900B8309D /* TargetRequests.swift in Sources */,
 				04E332AC2C36DA0100B8309D /* Publishers+Extension.swift in Sources */,
+				04E332B92C36E4BC00B8309D /* ContentViewModel.swift in Sources */,
 				04E332952C36CE0100B8309D /* MostPopular.swift in Sources */,
 				04E3329B2C36D24800B8309D /* ApplicationSecrets.swift in Sources */,
 				04E3328E2C36CB9300B8309D /* APIError.swift in Sources */,
